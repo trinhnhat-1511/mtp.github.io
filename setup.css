@@ -1,0 +1,22 @@
+body{
+    background-image: url(./photo-1-1618910635192350038334-1619257647704637944879.jpg);
+    text-align: center;
+}
+
+.mtp{
+    font-size: 70px;
+    color: rgb(19, 255, 19);
+    animation: fadein 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadein{
+    from{
+        color: black;
+        font-weight: 500;
+    }
+    to{
+        color: red;
+        font-weight: 600;
+    }
+}
